@@ -1,0 +1,2034 @@
+{
+  "armored_vehicles": [
+    {
+      "id": 1,
+      "name": "Т-90М Прорыв",
+      "type": "Основной боевой танк",
+      "country_of_origin": "Россия",
+      "operators": ["Россия", "Индия", "Алжир", "Вьетнам", "Ирак"],
+      "specifications": {
+        "weight_tons": 48,
+        "crew": 3,
+        "armor": "Комбинированная + Relikt",
+        "armament": {
+          "main_gun": {
+            "caliber": "125-мм 2А46М-5",
+            "rate_of_fire_rpm": 8,
+            "ammunition_types": ["3БМ60", "3БК31", "3ОФ70"]
+          },
+          "machine_guns": ["7.62-мм ПКТМ", "12.7-мм Корд"],
+          "guided_missiles": "9М119М Рефлекс-М"
+        },
+        "engine_power_hp": 1130,
+        "speed_max_kmh": 70,
+        "range_km": 550
+      }
+    },
+    {
+      "id": 2,
+      "name": "M1A2 SEP v3",
+      "type": "Основной боевой танк",
+      "country_of_origin": "США",
+      "operators": ["США", "Египет", "Саудовская Аравия", "Австралия", "Польша"],
+      "specifications": {
+        "weight_tons": 66.8,
+        "crew": 4,
+        "armor": "DU композитная",
+        "armament": {
+          "main_gun": {
+            "caliber": "120-мм M256",
+            "rate_of_fire_rpm": 10,
+            "ammunition_types": ["M829A4", "M830A1", "M1028"]
+          },
+          "machine_guns": ["12.7-мм M2", "7.62-мм M240", "7.62-мм M240"]
+        },
+        "engine_power_hp": 1500,
+        "speed_max_kmh": 67,
+        "range_km": 425
+      }
+    },
+    {
+      "id": 3,
+      "name": "Leopard 2A7+",
+      "type": "Основной боевой танк", 
+      "country_of_origin": "Германия",
+      "operators": ["Германия", "Дания", "Канада", "Норвегия", "Португалия"],
+      "specifications": {
+        "weight_tons": 67,
+        "crew": 4,
+        "armor": "AMAP композитная",
+        "armament": {
+          "main_gun": {
+            "caliber": "120-мм L55",
+            "rate_of_fire_rpm": 12,
+            "ammunition_types": ["DM63", "DM12", "DM11"]
+          },
+          "machine_guns": ["7.62-мм MG3", "7.62-мм MG3A1"]
+        },
+        "engine_power_hp": 1500,
+        "speed_max_kmh": 72,
+        "range_km": 450
+      }
+    },
+    {
+      "id": 4,
+      "name": "Challenger 3",
+      "type": "Основной боевой танк",
+      "country_of_origin": "Великобритания", 
+      "operators": ["Великобритания", "Оман"],
+      "specifications": {
+        "weight_tons": 66,
+        "crew": 4,
+        "armor": "Dorchester Level 2",
+        "armament": {
+          "main_gun": {
+            "caliber": "120-мм L55A1",
+            "rate_of_fire_rpm": 9,
+            "ammunition_types": ["APFSDS L28", "HESH", "THERMOBARIC"]
+          },
+          "machine_guns": ["7.62-мм L94A1", "7.62-мм L37A2"]
+        },
+        "engine_power_hp": 1500,
+        "speed_max_kmh": 59,
+        "range_km": 550
+      }
+    },
+    {
+      "id": 5,
+      "name": "Leclerc XLR",
+      "type": "Основной боевой танк",
+      "country_of_origin": "Франция",
+      "operators": ["Франция", "ОАЭ"],
+      "specifications": {
+        "weight_tons": 57,
+        "crew": 3,
+        "armor": "NxRA модульная",
+        "armament": {
+          "main_gun": {
+            "caliber": "120-мм CN120-26",
+            "rate_of_fire_rpm": 12,
+            "ammunition_types": ["OFLE", "OFL", "PELE"]
+          },
+          "machine_guns": ["12.7-мм M2", "7.62-мм FN MAG"]
+        },
+        "engine_power_hp": 1500,
+        "speed_max_kmh": 72,
+        "range_km": 550
+      }
+    },
+    {
+      "id": 6,
+      "name": "Type 10",
+      "type": "Основной боевой танк",
+      "country_of_origin": "Япония",
+      "operators": ["Япония"],
+      "specifications": {
+        "weight_tons": 44,
+        "crew": 3,
+        "armor": "Модульная керамическая",
+        "armament": {
+          "main_gun": {
+            "caliber": "120-мм L44",
+            "rate_of_fire_rpm": 10,
+            "ammunition_types": ["JM33", "Type10"]
+          },
+          "machine_guns": ["12.7-мм M2", "7.62-мм Type74"]
+        },
+        "engine_power_hp": 1200,
+        "speed_max_kmh": 70,
+        "range_km": 500
+      }
+    },
+    {
+      "id": 7,
+      "name": "K2 Black Panther",
+      "type": "Основной боевой танк",
+      "country_of_origin": "Южная Корея",
+      "operators": ["Южная Корея", "Польша", "Норвегия"],
+      "specifications": {
+        "weight_tons": 55,
+        "crew": 3,
+        "armor": "Нанокомпозитная",
+        "armament": {
+          "main_gun": {
+            "caliber": "120-мм L55",
+            "rate_of_fire_rpm": 15,
+            "ammunition_types": ["K279", "K276"]
+          },
+          "machine_guns": ["12.7-мм K6", "7.62-мм K12"]
+        },
+        "engine_power_hp": 1500,
+        "speed_max_kmh": 70,
+        "range_km": 450
+      }
+    },
+    {
+      "id": 8,
+      "name": "Type 99A",
+      "type": "Основной боевой танк",
+      "country_of_origin": "Китай",
+      "operators": ["Китай"],
+      "specifications": {
+        "weight_tons": 58,
+        "crew": 3,
+        "armor": "Композитная + ДЗ",
+        "armament": {
+          "main_gun": {
+            "caliber": "125-мм ZPT-98",
+            "rate_of_fire_rpm": 8,
+            "ammunition_types": ["DTW-125", "DTC10"]
+          },
+          "machine_guns": ["12.7-мм QJC88", "7.62-мм Type86"]
+        },
+        "engine_power_hp": 1500,
+        "speed_max_kmh": 80,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 9,
+      "name": "Ariete AMV",
+      "type": "Основной боевой танк",
+      "country_of_origin": "Италия",
+      "operators": ["Италия"],
+      "specifications": {
+        "weight_tons": 54,
+        "crew": 4,
+        "armor": "Композитная PSO",
+        "armament": {
+          "main_gun": {
+            "caliber": "120-мм L44",
+            "rate_of_fire_rpm": 9,
+            "ammunition_types": ["DM33", "M829"]
+          },
+          "machine_guns": ["7.62-мм MG3", "7.62-мм MG42/59"]
+        },
+        "engine_power_hp": 1270,
+        "speed_max_kmh": 65,
+        "range_km": 550
+      }
+    },
+    {
+      "id": 10,
+      "name": "Arjun MK1A",
+      "type": "Основной боевой танк",
+      "country_of_origin": "Индия",
+      "operators": ["Индия"],
+      "specifications": {
+        "weight_tons": 68,
+        "crew": 4,
+        "armor": "Композитная Kanchan",
+        "armament": {
+          "main_gun": {
+            "caliber": "120-мм rifled",
+            "rate_of_fire_rpm": 8,
+            "ammunition_types": ["FSAPDS", "HESH"]
+          },
+          "machine_guns": ["12.7-мм NSV", "7.62-мм PKT"]
+        },
+        "engine_power_hp": 1400,
+        "speed_max_kmh": 70,
+        "range_km": 450
+      }
+    },
+    {
+      "id": 11,
+      "name": "БМП-3 Драгун",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Россия",
+      "operators": ["Россия", "ОАЭ", "Кувейт", "Южная Корея"],
+      "specifications": {
+        "weight_tons": 18.7,
+        "crew": 3,
+        "troop_capacity": 7,
+        "armament": {
+          "main_gun": {
+            "caliber": "100-мм 2А70 + 30-мм 2А72",
+            "rate_of_fire_rpm": "10/330",
+            "ammunition_types": ["3УБК10", "3УОФ19"]
+          },
+          "missiles": "9М117М1",
+          "machine_guns": ["7.62-мм ПКТМ"]
+        },
+        "engine_power_hp": 500,
+        "speed_max_kmh": 70,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 12,
+      "name": "Kурганец-25",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Россия",
+      "operators": ["Россия"],
+      "specifications": {
+        "weight_tons": 25,
+        "crew": 3,
+        "troop_capacity": 8,
+        "armament": {
+          "main_gun": {
+            "caliber": "57-мм АУ-220М",
+            "rate_of_fire_rpm": 120,
+            "ammunition_types": ["ОФС", "БПС"]
+          },
+          "missiles": "9М133 Корнет",
+          "machine_guns": ["7.62-мм ПКТМ"]
+        },
+        "engine_power_hp": 800,
+        "speed_max_kmh": 80,
+        "range_km": 500
+      }
+    },
+    {
+      "id": 13,
+      "name": "M2A4 Bradley",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "США",
+      "operators": ["США", "Саудовская Аравия"],
+      "specifications": {
+        "weight_tons": 33.2,
+        "crew": 3,
+        "troop_capacity": 6,
+        "armament": {
+          "main_gun": {
+            "caliber": "25-мм M242",
+            "rate_of_fire_rpm": 200,
+            "ammunition_types": ["APFSDS", "HEI-T"]
+          },
+          "missiles": "BGM-71F TOW2",
+          "machine_gun": "7.62-мм M240C"
+        },
+        "engine_power_hp": 600,
+        "speed_max_kmh": 66,
+        "range_km": 400
+      }
+    },
+    {
+      "id": 14,
+      "name": "Puma",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Германия",
+      "operators": ["Германия"],
+      "specifications": {
+        "weight_tons": 43,
+        "crew": 3,
+        "troop_capacity": 6,
+        "armament": {
+          "main_gun": {
+            "caliber": "30-мм MK30-2",
+            "rate_of_fire_rpm": 700,
+            "ammunition_types": ["APFSDS", "HE"]
+          },
+          "missiles": "MELLS Spike-LR",
+          "remote_station": "5.56-мм MG4"
+        },
+        "engine_power_hp": 1088,
+        "speed_max_kmh": 70,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 15,
+      "name": "CV90 MkIV",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Швеция",
+      "operators": ["Швеция", "Норвегия", "Финляндия", "Дания", "Эстония"],
+      "specifications": {
+        "weight_tons": 37,
+        "crew": 3,
+        "troop_capacity": 8,
+        "armament": {
+          "main_gun": {
+            "caliber": "35-мм Bushmaster III",
+            "rate_of_fire_rpm": 200,
+            "ammunition_types": ["APFSDS", "HE", "3P"]
+          },
+          "machine_gun": "7.62-мм Ksp 94"
+        },
+        "engine_power_hp": 1000,
+        "speed_max_kmh": 70,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 16,
+      "name": "ASCOD 2",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Испания",
+      "operators": ["Испания", "Австрия", "Великобритания"],
+      "specifications": {
+        "weight_tons": 30,
+        "crew": 3,
+        "troop_capacity": 8,
+        "armament": {
+          "main_gun": {
+            "caliber": "30-мм Mk44",
+            "rate_of_fire_rpm": 400,
+            "ammunition_types": ["APFSDS", "HE"]
+          },
+          "machine_gun": "7.62-мм MG3"
+        },
+        "engine_power_hp": 720,
+        "speed_max_kmh": 72,
+        "range_km": 500
+      }
+    },
+    {
+      "id": 17,
+      "name": "Type 89",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Япония",
+      "operators": ["Япония"],
+      "specifications": {
+        "weight_tons": 27,
+        "crew": 3,
+        "troop_capacity": 7,
+        "armament": {
+          "main_gun": {
+            "caliber": "35-мм KDE",
+            "rate_of_fire_rpm": 200,
+            "ammunition_types": ["APDS", "HEI"]
+          },
+          "missiles": "79 Jyu-MAT",
+          "machine_gun": "7.62-мм Type74"
+        },
+        "engine_power_hp": 600,
+        "speed_max_kmh": 70,
+        "range_km": 400
+      }
+    },
+    {
+      "id": 18,
+      "name": "БТР-82АМ",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Россия",
+      "operators": ["Россия", "Казахстан", "Сирия", "Вьетнам"],
+      "specifications": {
+        "weight_tons": 15.4,
+        "crew": 3,
+        "troop_capacity": 7,
+        "armament": {
+          "main_gun": {
+            "caliber": "30-мм 2А72",
+            "rate_of_fire_rpm": 330,
+            "ammunition_types": ["БТ", "ОФЗ"]
+          },
+          "machine_gun": "7.62-мм ПКТМ"
+        },
+        "engine_power_hp": 300,
+        "speed_max_kmh": 80,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 19,
+      "name": "Бумеранг",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Россия",
+      "operators": ["Россия"],
+      "specifications": {
+        "weight_tons": 25,
+        "crew": 3,
+        "troop_capacity": 8,
+        "armament": {
+          "main_gun": {
+            "caliber": "30-мм 2А42",
+            "rate_of_fire_rpm": 550,
+            "ammunition_types": ["БТ", "ОФЗ"]
+          },
+          "missiles": "9М133 Корнет",
+          "machine_gun": "7.62-мм ПКТМ"
+        },
+        "engine_power_hp": 510,
+        "speed_max_kmh": 100,
+        "range_km": 800
+      }
+    },
+    {
+      "id": 20,
+      "name": "Stryker DVHA1",
+      "type": "Бронетранспортер",
+      "country_of_origin": "США",
+      "operators": ["США", "ОАЭ", "Тайвань"],
+      "specifications": {
+        "weight_tons": 22.7,
+        "crew": 2,
+        "troop_capacity": 9,
+        "armament": {
+          "remote_station": {
+            "caliber": "12.7-мм M2",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["AP", "API"]
+          },
+          "grenade_launcher": "40-мм MK19"
+        },
+        "engine_power_hp": 450,
+        "speed_max_kmh": 97,
+        "range_km": 500
+      }
+    },
+    {
+      "id": 21,
+      "name": "Boxer",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Германия",
+      "operators": ["Германия", "Нидерланды", "Литва", "Австралия", "Великобритания"],
+      "specifications": {
+        "weight_tons": 38.5,
+        "crew": 3,
+        "troop_capacity": 8,
+        "armament": {
+          "remote_station": {
+            "caliber": "30-мм MK30",
+            "rate_of_fire_rpm": 700,
+            "ammunition_types": ["APFSDS", "HE"]
+          },
+          "machine_gun": "7.62-мм MG5"
+        },
+        "engine_power_hp": 711,
+        "speed_max_kmh": 103,
+        "range_km": 1050
+      }
+    },
+    {
+      "id": 22,
+      "name": "Patria AMV",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Финляндия",
+      "operators": ["Финляндия", "Польша", "Хорватия", "ОАЭ", "ЮАР"],
+      "specifications": {
+        "weight_tons": 24,
+        "crew": 2,
+        "troop_capacity": 12,
+        "armament": {
+          "remote_station": {
+            "caliber": "30-мм M230LF",
+            "rate_of_fire_rpm": 200,
+            "ammunition_types": ["AP", "HE"]
+          },
+          "machine_gun": "7.62-мм PKT"
+        },
+        "engine_power_hp": 490,
+        "speed_max_kmh": 100,
+        "range_km": 800
+      }
+    },
+    {
+      "id": 23,
+      "name": "Pandur II",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Австрия",
+      "operators": ["Австрия", "Португалия", "Чехия", "Словакия"],
+      "specifications": {
+        "weight_tons": 22,
+        "crew": 2,
+        "troop_capacity": 10,
+        "armament": {
+          "remote_station": {
+            "caliber": "30-мм Mk44",
+            "rate_of_fire_rpm": 400,
+            "ammunition_types": ["APFSDS", "HE"]
+          },
+          "machine_gun": "7.62-мм MAG"
+        },
+        "engine_power_hp": 450,
+        "speed_max_kmh": 100,
+        "range_km": 700
+      }
+    },
+    {
+      "id": 24,
+      "name": "LAV 6.0",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Канада",
+      "operators": ["Канада", "Саудовская Аравия"],
+      "specifications": {
+        "weight_tons": 28,
+        "crew": 3,
+        "troop_capacity": 7,
+        "armament": {
+          "main_gun": {
+            "caliber": "25-мм M242",
+            "rate_of_fire_rpm": 200,
+            "ammunition_types": ["APFSDS", "HEI-T"]
+          },
+          "machine_gun": "7.62-мм C6"
+        },
+        "engine_power_hp": 450,
+        "speed_max_kmh": 100,
+        "range_km": 650
+      }
+    },
+    {
+      "id": 25,
+      "name": "2С35 Коалиция-СВ",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "Россия",
+      "operators": ["Россия"],
+      "specifications": {
+        "caliber_mm": 152,
+        "range_km": 70,
+        "rate_of_fire_rpm": 16,
+        "burst_fire_rpm": 10,
+        "crew": 3,
+        "speed_max_kmh": 65,
+        "ammunition_types": ["Краснополь", "Центр", "Экстра"]
+      }
+    },
+    {
+      "id": 26,
+      "name": "PzH 2000",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "Германия",
+      "operators": ["Германия", "Италия", "Нидерланды", "Греция", "Хорватия"],
+      "specifications": {
+        "caliber_mm": 155,
+        "range_km": 40,
+        "rate_of_fire_rpm": 10,
+        "burst_fire_rpm": 3,
+        "crew": 5,
+        "speed_max_kmh": 60,
+        "ammunition_types": ["DM121", "SMArt 155"]
+      }
+    },
+    {
+      "id": 27,
+      "name": "K9 Thunder",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "Южная Корея",
+      "operators": ["Южная Корея", "Польша", "Норвегия", "Эстония", "Турция"],
+      "specifications": {
+        "caliber_mm": 155,
+        "range_km": 40,
+        "rate_of_fire_rpm": 6,
+        "burst_fire_rpm": 3,
+        "crew": 5,
+        "speed_max_kmh": 67,
+        "ammunition_types": ["K307", "K310"]
+      }
+    },
+    {
+      "id": 28,
+      "name": "ARCHER",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "Швеция",
+      "operators": ["Швеция", "Норвегия"],
+      "specifications": {
+        "caliber_mm": 155,
+        "range_km": 50,
+        "rate_of_fire_rpm": 9,
+        "burst_fire_rpm": 3,
+        "crew": 4,
+        "speed_max_kmh": 70,
+        "ammunition_types": ["BONUS", "M982"]
+      }
+    },
+    {
+      "id": 29,
+      "name": "CAESAR",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "Франция",
+      "operators": ["Франция", "Саудовская Аравия", "Таиланд", "Индонезия"],
+      "specifications": {
+        "caliber_mm": 155,
+        "range_km": 42,
+        "rate_of_fire_rpm": 6,
+        "burst_fire_rpm": 3,
+        "crew": 5,
+        "speed_max_kmh": 100,
+        "ammunition_types": ["LU211", "BONUS"]
+      }
+    },
+    {
+      "id": 30,
+      "name": "Zuzana 2",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "Словакия",
+      "operators": ["Словакия", "Украина", "Кипр"],
+      "specifications": {
+        "caliber_mm": 155,
+        "range_km": 41,
+        "rate_of_fire_rpm": 6,
+        "burst_fire_rpm": 5,
+        "crew": 4,
+        "speed_max_kmh": 80,
+        "ammunition_types": ["ERFB", "M107"]
+      }
+    },
+    {
+      "id": 31,
+      "name": "ТОС-1А Солнцепёк",
+      "type": "Тяжелая огнеметная система",
+      "country_of_origin": "Россия",
+      "operators": ["Россия", "Азербайджан", "Ирак", "Казахстан"],
+      "specifications": {
+        "caliber_mm": 220,
+        "range_km": 6,
+        "rate_of_fire_rpm": 1,
+        "rockets": "24 ракеты",
+        "crew": 3,
+        "speed_max_kmh": 60,
+        "ammunition_types": ["Термобарические"]
+      }
+    },
+    {
+      "id": 32,
+      "name": "БМ-30 Смерч",
+      "type": "РСЗО",
+      "country_of_origin": "Россия",
+      "operators": ["Россия", "Индия", "Китай", "Алжир"],
+      "specifications": {
+        "caliber_mm": 300,
+        "range_km": 90,
+        "rate_of_fire_rpm": 12,
+        "reload_time_min": 20,
+        "crew": 4,
+        "speed_max_kmh": 60,
+        "ammunition_types": ["ОФ", "Кассетные"]
+      }
+    },
+    {
+      "id": 33,
+      "name": "HIMARS",
+      "type": "РСЗО",
+      "country_of_origin": "США",
+      "operators": ["США", "Польша", "Румыния", "Украина", "Сингапур"],
+      "specifications": {
+        "caliber_mm": 227,
+        "range_km": 300,
+        "rate_of_fire_rpm": 6,
+        "reload_time_min": 5,
+        "crew": 3,
+        "speed_max_kmh": 85,
+        "ammunition_types": ["M31", "ATACMS"]
+      }
+    },
+    {
+      "id": 34,
+      "name": "M270 MLRS",
+      "type": "РСЗО",
+      "country_of_origin": "США",
+      "operators": ["США", "Германия", "Франция", "Великобритания", "Финляндия"],
+      "specifications": {
+        "caliber_mm": 227,
+        "range_km": 300,
+        "rate_of_fire_rpm": 12,
+        "reload_time_min": 10,
+        "crew": 3,
+        "speed_max_kmh": 64,
+        "ammunition_types": ["M26", "M30"]
+      }
+    },
+    {
+      "id": 35,
+      "name": "ASTROS II",
+      "type": "РСЗО",
+      "country_of_origin": "Бразилия",
+      "operators": ["Бразилия", "Саудовская Аравия", "Малайзия", "Ирак"],
+      "specifications": {
+        "caliber_mm": 300,
+        "range_km": 90,
+        "rate_of_fire_rpm": 32,
+        "reload_time_min": 15,
+        "crew": 3,
+        "speed_max_kmh": 90,
+        "ammunition_types": ["SS-80", "SS-60"]
+      }
+    },
+    {
+      "id": 36,
+      "name": "Панцирь-С1",
+      "type": "ЗРПК",
+      "country_of_origin": "Россия",
+      "operators": ["Россия", "Алжир", "Бразилия", "Ирак", "ОАЭ"],
+      "specifications": {
+        "armament": {
+          "guns": {
+            "caliber": "2×30-мм",
+            "rate_of_fire_rpm": 5000,
+            "ammunition_types": ["ОФЗ", "БТ"]
+          },
+          "missiles": "12×57Э6"
+        },
+        "detection_range_km": 36,
+        "engagement_range_km": 20,
+        "reaction_time_sec": 5
+      }
+    },
+    {
+      "id": 37,
+      "name": "Тор-М2",
+      "type": "ЗРК",
+      "country_of_origin": "Россия",
+      "operators": ["Россия", "Беларусь", "Азербайджан", "Китай"],
+      "specifications": {
+        "missiles": "8×9М338",
+        "detection_range_km": 32,
+        "engagement_range_km": 16,
+        "reaction_time_sec": 3,
+        "targets_simultaneous": 4
+      }
+    },
+    {
+      "id": 38,
+      "name": "Бук-М3",
+      "type": "ЗРК",
+      "country_of_origin": "Россия",
+      "operators": ["Россия"],
+      "specifications": {
+        "missiles": "12×9М317М",
+        "detection_range_km": 70,
+        "engagement_range_km": 70,
+        "altitude_max_km": 35,
+        "targets_simultaneous": 36
+      }
+    },
+    {
+      "id": 39,
+      "name": "Patriot PAC-3",
+      "type": "ЗРК",
+      "country_of_origin": "США",
+      "operators": ["США", "Германия", "Нидерланды", "Польша", "Швеция"],
+      "specifications": {
+        "missiles": "MIM-104",
+        "detection_range_km": 100,
+        "engagement_range_km": 70,
+        "altitude_max_km": 24,
+        "targets_simultaneous": 9
+      }
+    },
+    {
+      "id": 40,
+      "name": "S-300V4",
+      "type": "ЗРК",
+      "country_of_origin": "Россия",
+      "operators": ["Россия"],
+      "specifications": {
+        "missiles": "9М82М/9М83М",
+        "detection_range_km": 400,
+        "engagement_range_km": 400,
+        "altitude_max_km": 37,
+        "targets_simultaneous": 24
+      }
+    },
+    {
+      "id": 41,
+      "name": "MIM-23 Hawk",
+      "type": "ЗРК",
+      "country_of_origin": "США",
+      "operators": ["США", "Израиль", "Египет", "Испания"],
+      "specifications": {
+        "missiles": "MIM-23",
+        "detection_range_km": 100,
+        "engagement_range_km": 45,
+        "altitude_max_km": 18,
+        "targets_simultaneous": 2
+      }
+    },
+    {
+      "id": 42,
+      "name": "RBS 70",
+      "type": "ПЗРК",
+      "country_of_origin": "Швеция",
+      "operators": ["Швеция", "Австралия", "Пакистан", "Аргентина"],
+      "specifications": {
+        "missiles": "Mk2",
+        "engagement_range_km": 8,
+        "altitude_max_km": 5,
+        "reaction_time_sec": 5,
+        "crew": 2
+      }
+    },
+    {
+      "id": 43,
+      "name": "БМПТ Терминатор",
+      "type": "Танк поддержки",
+      "country_of_origin": "Россия",
+      "operators": ["Россия", "Казахстан"],
+      "specifications": {
+        "weight_tons": 48,
+        "crew": 5,
+        "armament": {
+          "guns": {
+            "caliber": "2×30-мм 2А42",
+            "rate_of_fire_rpm": 550,
+            "ammunition_types": ["БТ", "ОФЗ"]
+          },
+          "missiles": "4×9М120 Атака",
+          "grenade_launchers": ["30-мм АГС-17", "7.62-мм ПКТ"]
+        },
+        "engine_power_hp": 1000,
+        "speed_max_kmh": 60,
+        "range_km": 550
+      }
+    },
+    {
+      "id": 44,
+      "name": "БРДМ-2М",
+      "type": "Разведывательная машина",
+      "country_of_origin": "Россия",
+      "operators": ["Россия", "Украина", "Беларусь", "Казахстан"],
+      "specifications": {
+        "weight_tons": 7,
+        "crew": 4,
+        "armament": {
+          "main_gun": {
+            "caliber": "14.5-мм КПВТ",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["Б-32", "БЗТ"]
+          },
+          "machine_gun": "7.62-мм ПКТ"
+        },
+        "engine_power_hp": 140,
+        "speed_max_kmh": 100,
+        "range_km": 750
+      }
+    },
+    {
+      "id": 45,
+      "name": "Fennek",
+      "type": "Разведывательная машина",
+      "country_of_origin": "Германия",
+      "operators": ["Германия", "Нидерланды", "Катар"],
+      "specifications": {
+        "weight_tons": 10,
+        "crew": 3,
+        "armament": {
+          "remote_station": {
+            "caliber": "12.7-мм M2",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["AP", "API"]
+          },
+          "grenade_launcher": "40-мм HK GMG"
+        },
+        "engine_power_hp": 240,
+        "speed_max_kmh": 115,
+        "range_km": 860
+      }
+    },
+    {
+      "id": 46,
+      "name": "VBL",
+      "type": "Разведывательная машина",
+      "country_of_origin": "Франция",
+      "operators": ["Франция", "Мексика", "Оман", "Португалия"],
+      "specifications": {
+        "weight_tons": 4,
+        "crew": 3,
+        "armament": {
+          "main_gun": {
+            "caliber": "12.7-мм M2",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["AP", "API"]
+          },
+          "missiles": "MILAN"
+        },
+        "engine_power_hp": 95,
+        "speed_max_kmh": 95,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 47,
+      "name": "EJDER YALÇIN",
+      "type": "Бронеавтомобиль",
+      "country_of_origin": "Турция",
+      "operators": ["Турция", "Тунис", "Сенегал", "Катар"],
+      "specifications": {
+        "weight_tons": 12,
+        "crew": 2,
+        "troop_capacity": 9,
+        "armament": {
+          "remote_station": {
+            "caliber": "25-мм M242",
+            "rate_of_fire_rpm": 200,
+            "ammunition_types": ["APFSDS", "HEI-T"]
+          },
+          "machine_gun": "7.62-мм MG3"
+        },
+        "engine_power_hp": 375,
+        "speed_max_kmh": 110,
+        "range_km": 700
+      }
+    },
+    {
+      "id": 48,
+      "name": "COBRA II",
+      "type": "Бронеавтомобиль",
+      "country_of_origin": "Турция",
+      "operators": ["Турция", "Пакистан", "Бангладеш", "Оман"],
+      "specifications": {
+        "weight_tons": 6,
+        "crew": 1,
+        "troop_capacity": 7,
+        "armament": {
+          "remote_station": {
+            "caliber": "12.7-мм M2",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["AP", "API"]
+          }
+        },
+        "engine_power_hp": 300,
+        "speed_max_kmh": 120,
+        "range_km": 700
+      }
+    },
+    {
+      "id": 49,
+      "name": "RG-33",
+      "type": "MRAP",
+      "country_of_origin": "США",
+      "operators": ["США", "Канада", "Ирак", "Афганистан"],
+      "specifications": {
+        "weight_tons": 22,
+        "crew": 2,
+        "troop_capacity": 10,
+        "armament": {
+          "remote_station": {
+            "caliber": "12.7-мм M2",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["AP", "API"]
+          }
+        },
+        "engine_power_hp": 400,
+        "speed_max_kmh": 105,
+        "range_km": 700
+      }
+    },
+    {
+      "id": 50,
+      "name": "Cougar",
+      "type": "MRAP",
+      "country_of_origin": "США",
+      "operators": ["США", "Великобритания", "Франция", "Ирак"],
+      "specifications": {
+        "weight_tons": 17,
+        "crew": 2,
+        "troop_capacity": 12,
+        "armament": {
+          "remote_station": {
+            "caliber": "12.7-мм M2",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["AP", "API"]
+          }
+        },
+        "engine_power_hp": 330,
+        "speed_max_kmh": 105,
+        "range_km": 850
+      }
+    },
+    {
+      "id": 51,
+      "name": "Bushmaster",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Австралия",
+      "operators": ["Австралия", "Нидерланды", "Япония", "Индонезия"],
+      "specifications": {
+        "weight_tons": 15,
+        "crew": 2,
+        "troop_capacity": 9,
+        "armament": {
+          "remote_station": {
+            "caliber": "12.7-мм M2",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["AP", "API"]
+          }
+        },
+        "engine_power_hp": 300,
+        "speed_max_kmh": 100,
+        "range_km": 800
+      }
+    },
+    {
+      "id": 52,
+      "name": "Terrex 2",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Сингапур",
+      "operators": ["Сингапур", "Таиланд"],
+      "specifications": {
+        "weight_tons": 29,
+        "crew": 2,
+        "troop_capacity": 12,
+        "armament": {
+          "remote_station": {
+            "caliber": "12.7-мм M2",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["AP", "API"]
+          }
+        },
+        "engine_power_hp": 450,
+        "speed_max_kmh": 70,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 53,
+      "name": "Type 16",
+      "type": "Мобильная огневая система",
+      "country_of_origin": "Япония",
+      "operators": ["Япония"],
+      "specifications": {
+        "weight_tons": 26,
+        "crew": 4,
+        "armament": {
+          "main_gun": {
+            "caliber": "105-мм",
+            "rate_of_fire_rpm": 8,
+            "ammunition_types": ["APFSDS", "HEAT"]
+          },
+          "machine_gun": "12.7-мм M2"
+        },
+        "engine_power_hp": 570,
+        "speed_max_kmh": 100,
+        "range_km": 400
+      }
+    },
+    {
+      "id": 54,
+      "name": "AMX-10 RC",
+      "type": "Разведывательная машина",
+      "country_of_origin": "Франция",
+      "operators": ["Франция", "Марокко", "Катар"],
+      "specifications": {
+        "weight_tons": 17,
+        "crew": 4,
+        "armament": {
+          "main_gun": {
+            "caliber": "105-мм F2",
+            "rate_of_fire_rpm": 8,
+            "ammunition_types": ["OCC", "OE"]
+          },
+          "machine_guns": ["7.62-мм NF1", "7.62-мм NF1"]
+        },
+        "engine_power_hp": 280,
+        "speed_max_kmh": 85,
+        "range_km": 800
+      }
+    },
+    {
+      "id": 55,
+      "name": "Centauro II",
+      "type": "Колесный танк",
+      "country_of_origin": "Италия",
+      "operators": ["Италия", "Испания"],
+      "specifications": {
+        "weight_tons": 30,
+        "crew": 4,
+        "armament": {
+          "main_gun": {
+            "caliber": "120-мм L45",
+            "rate_of_fire_rpm": 8,
+            "ammunition_types": ["APFSDS", "HEAT"]
+          },
+          "machine_guns": ["7.62-мм MG42", "7.62-мм MG42"]
+        },
+        "engine_power_hp": 720,
+        "speed_max_kmh": 105,
+        "range_km": 800
+      }
+    },
+    {
+      "id": 56,
+      "name": "Rooikat 105",
+      "type": "Разведывательная машина",
+      "country_of_origin": "ЮАР",
+      "operators": ["ЮАР"],
+      "specifications": {
+        "weight_tons": 28,
+        "crew": 4,
+        "armament": {
+          "main_gun": {
+            "caliber": "105-мм GT-7",
+            "rate_of_fire_rpm": 6,
+            "ammunition_types": ["APFSDS", "HEAT"]
+          },
+          "machine_guns": ["7.62-мм MG4", "7.62-мм MG4"]
+        },
+        "engine_power_hp": 563,
+        "speed_max_kmh": 120,
+        "range_km": 1000
+      }
+    },
+    {
+      "id": 57,
+      "name": "BTR-4",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Украина",
+      "operators": ["Украина", "Ирак", "Индонезия", "Нигерия"],
+      "specifications": {
+        "weight_tons": 17,
+        "crew": 3,
+        "troop_capacity": 8,
+        "armament": {
+          "main_gun": {
+            "caliber": "30-мм ZTM-1",
+            "rate_of_fire_rpm": 330,
+            "ammunition_types": ["БТ", "ОФЗ"]
+          },
+          "missiles": "Барьер",
+          "machine_gun": "7.62-мм ПКТ"
+        },
+        "engine_power_hp": 500,
+        "speed_max_kmh": 110,
+        "range_km": 690
+      }
+    },
+    {
+      "id": 58,
+      "name": "DOGO",
+      "type": "MRAP",
+      "country_of_origin": "Израиль",
+      "operators": ["Израиль", "Колумбия", "Мексика"],
+      "specifications": {
+        "weight_tons": 9,
+        "crew": 2,
+        "troop_capacity": 10,
+        "armament": {
+          "remote_station": {
+            "caliber": "12.7-мм M2",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["AP", "API"]
+          }
+        },
+        "engine_power_hp": 300,
+        "speed_max_kmh": 100,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 59,
+      "name": "Eitan",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Израиль",
+      "operators": ["Израиль"],
+      "specifications": {
+        "weight_tons": 35,
+        "crew": 3,
+        "troop_capacity": 12,
+        "armament": {
+          "remote_station": {
+            "caliber": "30-мм",
+            "rate_of_fire_rpm": 400,
+            "ammunition_types": ["APFSDS", "HE"]
+          },
+          "machine_gun": "7.62-мм MAG"
+        },
+        "engine_power_hp": 750,
+        "speed_max_kmh": 90,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 60,
+      "name": "Namer",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Израиль",
+      "operators": ["Израиль"],
+      "specifications": {
+        "weight_tons": 60,
+        "crew": 3,
+        "troop_capacity": 9,
+        "armament": {
+          "remote_station": {
+            "caliber": "30-мм",
+            "rate_of_fire_rpm": 400,
+            "ammunition_types": ["APFSDS", "HE"]
+          },
+          "machine_guns": ["7.62-мм MAG", "7.62-мм MAG"]
+        },
+        "engine_power_hp": 1500,
+        "speed_max_kmh": 60,
+        "range_km": 500
+      }
+    },
+    {
+      "id": 61,
+      "name": "M113AS4",
+      "type": "Бронетранспортер",
+      "country_of_origin": "США",
+      "operators": ["Австралия"],
+      "specifications": {
+        "weight_tons": 17,
+        "crew": 2,
+        "troop_capacity": 6,
+        "armament": {
+          "remote_station": {
+            "caliber": "12.7-мм M2",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["AP", "API"]
+          }
+        },
+        "engine_power_hp": 350,
+        "speed_max_kmh": 66,
+        "range_km": 450
+      }
+    },
+    {
+      "id": 62,
+      "name": "Type 89",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Китай",
+      "operators": ["Китай"],
+      "specifications": {
+        "weight_tons": 28,
+        "crew": 3,
+        "troop_capacity": 7,
+        "armament": {
+          "main_gun": {
+            "caliber": "30-мм ZPT-99",
+            "rate_of_fire_rpm": 330,
+            "ammunition_types": ["AP", "HE"]
+          },
+          "missiles": "HJ-73",
+          "machine_gun": "7.62-мм Type 86"
+        },
+        "engine_power_hp": 600,
+        "speed_max_kmh": 65,
+        "range_km": 500
+      }
+    },
+    {
+      "id": 63,
+      "name": "ZBD-04A",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Китай",
+      "operators": ["Китай"],
+      "specifications": {
+        "weight_tons": 26,
+        "crew": 3,
+        "troop_capacity": 7,
+        "armament": {
+          "main_gun": {
+            "caliber": "100-мм + 30-мм",
+            "rate_of_fire_rpm": "8/330",
+            "ammunition_types": ["ОФ", "БПС"]
+          },
+          "missiles": "HJ-10",
+          "machine_gun": "7.62-мм Type 86"
+        },
+        "engine_power_hp": 600,
+        "speed_max_kmh": 65,
+        "range_km": 500
+      }
+    },
+    {
+      "id": 64,
+      "name": "BMP-23",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Болгария",
+      "operators": ["Болгария"],
+      "specifications": {
+        "weight_tons": 15,
+        "crew": 3,
+        "troop_capacity": 7,
+        "armament": {
+          "main_gun": {
+            "caliber": "23-мм 2А14",
+            "rate_of_fire_rpm": 800,
+            "ammunition_types": ["БТ", "ОФЗ"]
+          },
+          "missiles": "9К111",
+          "machine_gun": "7.62-мм ПКТ"
+        },
+        "engine_power_hp": 315,
+        "speed_max_kmh": 61,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 65,
+      "name": "BVP M80A",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Сербия",
+      "operators": ["Сербия", "Хорватия", "Словения"],
+      "specifications": {
+        "weight_tons": 14,
+        "crew": 3,
+        "troop_capacity": 7,
+        "armament": {
+          "main_gun": {
+            "caliber": "20-мм M55",
+            "rate_of_fire_rpm": 800,
+            "ammunition_types": ["AP", "HE"]
+          },
+          "missiles": "9К111",
+          "machine_gun": "7.62-мм M72"
+        },
+        "engine_power_hp": 320,
+        "speed_max_kmh": 64,
+        "range_km": 500
+      }
+    },
+    {
+      "id": 66,
+      "name": "FV510 Warrior",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Великобритания",
+      "operators": ["Великобритания", "Кувейт"],
+      "specifications": {
+        "weight_tons": 28,
+        "crew": 3,
+        "troop_capacity": 7,
+        "armament": {
+          "main_gun": {
+            "caliber": "30-мм RARDEN",
+            "rate_of_fire_rpm": 90,
+            "ammunition_types": ["APDS", "HE"]
+          },
+          "machine_gun": "7.62-мм L94A1"
+        },
+        "engine_power_hp": 550,
+        "speed_max_kmh": 75,
+        "range_km": 660
+      }
+    },
+    {
+      "id": 67,
+      "name": "Marder 1A5",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Германия",
+      "operators": ["Германия", "Чили", "Индонезия"],
+      "specifications": {
+        "weight_tons": 33,
+        "crew": 3,
+        "troop_capacity": 7,
+        "armament": {
+          "main_gun": {
+            "caliber": "20-мм Rh202",
+            "rate_of_fire_rpm": 1000,
+            "ammunition_types": ["AP", "HE"]
+          },
+          "missiles": "MILAN",
+          "machine_gun": "7.62-мм MG3"
+        },
+        "engine_power_hp": 600,
+        "speed_max_kmh": 75,
+        "range_km": 520
+      }
+    },
+    {
+      "id": 68,
+      "name": "AMX-10P",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Франция",
+      "operators": ["Франция", "Индонезия", "Мексика", "Саудовская Аравия"],
+      "specifications": {
+        "weight_tons": 14,
+        "crew": 3,
+        "troop_capacity": 8,
+        "armament": {
+          "main_gun": {
+            "caliber": "20-мм M693",
+            "rate_of_fire_rpm": 700,
+            "ammunition_types": ["AP", "HE"]
+          },
+          "machine_gun": "7.62-мм AA-52"
+        },
+        "engine_power_hp": 280,
+        "speed_max_kmh": 65,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 69,
+      "name": "Dardo",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Италия",
+      "operators": ["Италия"],
+      "specifications": {
+        "weight_tons": 23,
+        "crew": 3,
+        "troop_capacity": 6,
+        "armament": {
+          "main_gun": {
+            "caliber": "25-мм KBA",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["APDS", "HEI"]
+          },
+          "missiles": "TOW",
+          "machine_gun": "7.62-мм MG42"
+        },
+        "engine_power_hp": 520,
+        "speed_max_kmh": 70,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 70,
+      "name": "ACV-S",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "Турция",
+      "operators": ["Турция"],
+      "specifications": {
+        "weight_tons": 30,
+        "crew": 3,
+        "troop_capacity": 8,
+        "armament": {
+          "main_gun": {
+            "caliber": "30-мм Mk44",
+            "rate_of_fire_rpm": 400,
+            "ammunition_types": ["APFSDS", "HE"]
+          },
+          "missiles": "UMTAS",
+          "machine_gun": "7.62-мм MG3"
+        },
+        "engine_power_hp": 600,
+        "speed_max_kmh": 65,
+        "range_km": 500
+      }
+    },
+    {
+      "id": 71,
+      "name": "BMP-1",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "СССР",
+      "operators": ["Россия", "Украина", "Индия", "Египет", "Сирия"],
+      "specifications": {
+        "weight_tons": 13,
+        "crew": 3,
+        "troop_capacity": 8,
+        "armament": {
+          "main_gun": {
+            "caliber": "73-мм 2А28",
+            "rate_of_fire_rpm": 8,
+            "ammunition_types": ["ПГ-9", "ОГ-9"]
+          },
+          "missiles": "9М14",
+          "machine_gun": "7.62-мм ПКТ"
+        },
+        "engine_power_hp": 300,
+        "speed_max_kmh": 65,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 72,
+      "name": "BMP-2",
+      "type": "Боевая машина пехоты",
+      "country_of_origin": "СССР",
+      "operators": ["Россия", "Индия", "Украина", "Казахстан", "Сирия"],
+      "specifications": {
+        "weight_tons": 14,
+        "crew": 3,
+        "troop_capacity": 7,
+        "armament": {
+          "main_gun": {
+            "caliber": "30-мм 2А42",
+            "rate_of_fire_rpm": 550,
+            "ammunition_types": ["БТ", "ОФЗ"]
+          },
+          "missiles": "9М113",
+          "machine_gun": "7.62-мм ПКТ"
+        },
+        "engine_power_hp": 300,
+        "speed_max_kmh": 65,
+        "range_km": 600
+      }
+    },
+    {
+      "id": 73,
+      "name": "BMD-4M",
+      "type": "Боевая машина десанта",
+      "country_of_origin": "Россия",
+      "operators": ["Россия"],
+      "specifications": {
+        "weight_tons": 13,
+        "crew": 3,
+        "troop_capacity": 5,
+        "armament": {
+          "main_gun": {
+            "caliber": "100-мм 2А70 + 30-мм 2А72",
+            "rate_of_fire_rpm": "10/330",
+            "ammunition_types": ["3УБК10", "3УОФ19"]
+          },
+          "missiles": "9М117",
+          "machine_gun": "7.62-мм ПКТМ"
+        },
+        "engine_power_hp": 450,
+        "speed_max_kmh": 70,
+        "range_km": 500
+      }
+    },
+    {
+      "id": 74,
+      "name": "WZ-551",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Китай",
+      "operators": ["Китай", "Пакистан", "Шри-Ланка", "Мьянма"],
+      "specifications": {
+        "weight_tons": 15,
+        "crew": 3,
+        "troop_capacity": 9,
+        "armament": {
+          "main_gun": {
+            "caliber": "25-мм ZPT-90",
+            "rate_of_fire_rpm": 200,
+            "ammunition_types": ["AP", "HE"]
+          },
+          "machine_gun": "7.62-мм Type 86"
+        },
+        "engine_power_hp": 320,
+        "speed_max_kmh": 85,
+        "range_km": 800
+      }
+    },
+    {
+      "id": 75,
+      "name": "Type 07",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Китай",
+      "operators": ["Китай"],
+      "specifications": {
+        "weight_tons": 16,
+        "crew": 2,
+        "troop_capacity": 10,
+        "armament": {
+          "remote_station": {
+            "caliber": "12.7-мм QJC-88",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["AP", "API"]
+          }
+        },
+        "engine_power_hp": 440,
+        "speed_max_kmh": 100,
+        "range_km": 800
+      }
+    },
+    {
+      "id": 76,
+      "name": "Al-Fahd",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Саудовская Аравия",
+      "operators": ["Саудовская Аравия", "Пакистан"],
+      "specifications": {
+        "weight_tons": 13,
+        "crew": 2,
+        "troop_capacity": 10,
+        "armament": {
+          "main_gun": {
+            "caliber": "12.7-мм M2",
+            "rate_of_fire_rpm": 600,
+            "ammunition_types": ["AP", "API"]
+          }
+        },
+        "engine_power_hp": 320,
+        "speed_max_kmh": 100,
+        "range_km": 800
+      }
+    },
+    {
+      "id": 77,
+      "name": "Otokar Arma",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Турция",
+      "operators": ["Турция", "ОАЭ", "Тунис", "Бангладеш"],
+      "specifications": {
+        "weight_tons": 18,
+        "crew": 2,
+        "troop_capacity": 9,
+        "armament": {
+          "remote_station": {
+            "caliber": "25-мм M242",
+            "rate_of_fire_rpm": 200,
+            "ammunition_types": ["APFSDS", "HEI-T"]
+          },
+          "machine_gun": "7.62-мм MG3"
+        },
+        "engine_power_hp": 450,
+        "speed_max_kmh": 105,
+        "range_km": 700
+      }
+    },
+    {
+      "id": 78,
+      "name": "FNSS Pars",
+      "type": "Бронетранспортер",
+      "country_of_origin": "Турция",
+      "operators": ["Турция", "Малайзия", "Оман"],
+      "specifications": {
+        "weight_tons": 25,
+        "crew": 2,
+        "troop_capacity": 12,
+        "armament": {
+          "remote_station": {
+            "caliber": "25-мм M242",
+            "rate_of_fire_rpm": 200,
+            "ammunition_types": ["APFSDS", "HEI-T"]
+          },
+          "machine_gun": "7.62-мм MG3"
+        },
+        "engine_power_hp": 600,
+        "speed_max_kmh": 100,
+        "range_km": 800
+      }
+    },
+    {
+      "id": 79,
+      "name": "T-15 Армата",
+      "type": "Тяжелая БМП",
+      "country_of_origin": "Россия",
+      "operators": ["Россия"],
+      "specifications": {
+        "weight_tons": 48,
+        "crew": 3,
+        "troop_capacity": 9,
+        "armament": {
+          "remote_station": {
+            "caliber": "57-мм АУ-220М",
+            "rate_of_fire_rpm": 120,
+            "ammunition_types": ["ОФС", "БПС"]
+          },
+          "missiles": "9М133 Корнет",
+          "machine_gun": "7.62-мм ПКТМ"
+        },
+        "engine_power_hp": 1500,
+        "speed_max_kmh": 65,
+        "range_km": 550
+      }
+    },
+    {
+      "id": 80,
+      "name": "M1128 Stryker MGS",
+      "type": "Колесная САУ",
+      "country_of_origin": "США",
+      "operators": ["США"],
+      "specifications": {
+        "weight_tons": 19,
+        "crew": 3,
+        "armament": {
+          "main_gun": {
+            "caliber": "105-мм M68A2",
+            "rate_of_fire_rpm": 6,
+            "ammunition_types": ["APFSDS", "HEAT"]
+          },
+          "machine_gun": "12.7-мм M2"
+        },
+        "engine_power_hp": 350,
+        "speed_max_kmh": 97,
+        "range_km": 500
+      }
+    },
+    {
+      "id": 81,
+      "name": "2С25 Спрут-СД",
+      "type": "ПТ САУ",
+      "country_of_origin": "Россия",
+      "operators": ["Россия"],
+      "specifications": {
+        "weight_tons": 18,
+        "crew": 3,
+        "armament": {
+          "main_gun": {
+            "caliber": "125-мм 2А75",
+            "rate_of_fire_rpm": 7,
+            "ammunition_types": ["БПС", "ОФС"]
+          },
+          "machine_gun": "7.62-мм ПКТМ"
+        },
+        "engine_power_hp": 510,
+        "speed_max_kmh": 70,
+        "range_km": 500
+      }
+    },
+    {
+      "id": 82,
+      "name": "M109A6 Paladin",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "США",
+      "operators": ["США", "Египет", "Тайвань", "Саудовская Аравия"],
+      "specifications": {
+        "caliber_mm": 155,
+        "range_km": 30,
+        "rate_of_fire_rpm": 4,
+        "burst_fire_rpm": 3,
+        "crew": 4,
+        "speed_max_kmh": 56,
+        "ammunition_types": ["M795", "M982"]
+      }
+    },
+    {
+      "id": 83,
+      "name": "AS90",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "Великобритания",
+      "operators": ["Великобритания"],
+      "specifications": {
+        "caliber_mm": 155,
+        "range_km": 30,
+        "rate_of_fire_rpm": 6,
+        "burst_fire_rpm": 3,
+        "crew": 5,
+        "speed_max_kmh": 55,
+        "ammunition_types": ["L15", "XM982"]
+      }
+    },
+    {
+      "id": 84,
+      "name": "PLZ-05",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "Китай",
+      "operators": ["Китай"],
+      "specifications": {
+        "caliber_mm": 155,
+        "range_km": 50,
+        "rate_of_fire_rpm": 8,
+        "burst_fire_rpm": 4,
+        "crew": 5,
+        "speed_max_kmh": 55,
+        "ammunition_types": ["ERFB", "BB"]
+      }
+    },
+    {
+      "id": 85,
+      "name": "Krab",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "Польша",
+      "operators": ["Польша", "Украина"],
+      "specifications": {
+        "caliber_mm": 155,
+        "range_km": 40,
+        "rate_of_fire_rpm": 6,
+        "burst_fire_rpm": 3,
+        "crew": 5,
+        "speed_max_kmh": 60,
+        "ammunition_types": ["M107", "M549"]
+      }
+    },
+    {
+      "id": 86,
+      "name": "PLL-01",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "Польша",
+      "operators": ["Польша"],
+      "specifications": {
+        "caliber_mm": 152,
+        "range_km": 32,
+        "rate_of_fire_rpm": 6,
+        "burst_fire_rpm": 3,
+        "crew": 6,
+        "speed_max_kmh": 60,
+        "ammunition_types": ["OF-32", "BP-32"]
+      }
+    },
+    {
+      "id": 87,
+      "name": "G6 Rhino",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "ЮАР",
+      "operators": ["ЮАР", "ОАЭ", "Оман"],
+      "specifications": {
+        "caliber_mm": 155,
+        "range_km": 42,
+        "rate_of_fire_rpm": 4,
+        "burst_fire_rpm": 3,
+        "crew": 6,
+        "speed_max_kmh": 90,
+        "ammunition_types": ["M57", "M64"]
+      }
+    },
+    {
+      "id": 88,
+      "name": "Bandkanon 1C",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "Швеция",
+      "operators": ["Швеция"],
+      "specifications": {
+        "caliber_mm": 155,
+        "range_km": 25,
+        "rate_of_fire_rpm": 15,
+        "burst_fire_rpm": 14,
+        "crew": 5,
+        "speed_max_kmh": 28,
+        "ammunition_types": ["M107", "HE"]
+      }
+    },
+    {
+      "id": 89,
+      "name": "2С7М Малка",
+      "type": "Самоходная пушка",
+      "country_of_origin": "Россия",
+      "operators": ["Россия", "Украина"],
+      "specifications": {
+        "caliber_mm": 203,
+        "range_km": 47,
+        "rate_of_fire_rpm": 2,
+        "crew": 7,
+        "speed_max_kmh": 50,
+        "ammunition_types": ["3ВОФ35", "3ВОФ44"]
+      }
+    },
+    {
+      "id": 90,
+      "name": "M107",
+      "type": "Самоходная пушка",
+      "country_of_origin": "США",
+      "operators": ["США", "Израиль", "Иран"],
+      "specifications": {
+        "caliber_mm": 175,
+        "range_km": 32,
+        "rate_of_fire_rpm": 1,
+        "crew": 5,
+        "speed_max_kmh": 56,
+        "ammunition_types": ["M437", "M437A1"]
+      }
+    },
+    {
+      "id": 91,
+      "name": "M110",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "США",
+      "operators": ["США", "Турция", "Греция", "Пакистан"],
+      "specifications": {
+        "caliber_mm": 203,
+        "range_km": 22,
+        "rate_of_fire_rpm": 1,
+        "crew": 5,
+        "speed_max_kmh": 54,
+        "ammunition_types": ["M106", "M650"]
+      }
+    },
+    {
+      "id": 92,
+      "name": "M55",
+      "type": "Самоходная гаубица",
+      "country_of_origin": "США",
+      "operators": ["США", "Израиль", "Иордания"],
+      "specifications": {
+        "caliber_mm": 203,
+        "range_km": 16,
+        "rate_of_fire_rpm": 1,
+        "crew": 6,
+        "speed_max_kmh": 48,
+        "ammunition_types": ["M106", "M422"]
+      }
+    },
+    {
+      "id": 93,
+      "name": "9А52-4 Смерч",
+      "type": "РСЗО",
+      "country_of_origin": "Россия",
+      "operators": ["Россия"],
+      "specifications": {
+        "caliber_mm": 300,
+        "range_km": 90,
+        "rate_of_fire_rpm": 12,
+        "reload_time_min": 20,
+        "crew": 3,
+        "speed_max_kmh": 90,
+        "ammunition_types": ["9М55К", "9М55Ф"]
+      }
+    },
+    {
+      "id": 94,
+      "name": "WM-80",
+      "type": "РСЗО",
+      "country_of_origin": "Китай",
+      "operators": ["Китай", "Иордания"],
+      "specifications": {
+        "caliber_mm": 273,
+        "range_km": 80,
+        "rate_of_fire_rpm": 8,
+        "reload_time_min": 15,
+        "crew": 5,
+        "speed_max_kmh": 70,
+        "ammunition_types": ["HE", "Cluster"]
+      }
+    },
+    {
+      "id": 95,
+      "name": "LAR-160",
+      "type": "РСЗО",
+      "country_of_origin": "Израиль",
+      "operators": ["Израиль", "Азербайджан", "Чили"],
+      "specifications": {
+        "caliber_mm": 160,
+        "range_km": 45,
+        "rate_of_fire_rpm": 26,
+        "reload_time_min": 10,
+        "crew": 4,
+        "speed_max_kmh": 90,
+        "ammunition_types": ["HE", "DPICM"]
+      }
+    },
+    {
+      "id": 96,
+      "name": "RM-70",
+      "type": "РСЗО",
+      "country_of_origin": "Чехия",
+      "operators": ["Чехия", "Словакия", "Польша"],
+      "specifications": {
+        "caliber_mm": 122,
+        "range_km": 20,
+        "rate_of_fire_rpm": 40,
+        "reload_time_min": 5,
+        "crew": 6,
+        "speed_max_kmh": 85,
+        "ammunition_types": ["HE", "FRAG"]
+      }
+    },
+    {
+      "id": 97,
+      "name": "Type 75",
+      "type": "РСЗО",
+      "country_of_origin": "Япония",
+      "operators": ["Япония"],
+      "specifications": {
+        "caliber_mm": 130,
+        "range_km": 15,
+        "rate_of_fire_rpm": 30,
+        "reload_time_min": 10,
+        "crew": 3,
+        "speed_max_kmh": 100,
+        "ammunition_types": ["HE", "AP"]
+      }
+    },
+    {
+      "id": 98,
+      "name": "Valkiri",
+      "type": "РСЗО",
+      "country_of_origin": "ЮАР",
+      "operators": ["ЮАР", "Ливия"],
+      "specifications": {
+        "caliber_mm": 127,
+        "range_km": 22,
+        "rate_of_fire_rpm": 40,
+        "reload_time_min": 8,
+        "crew": 3,
+        "speed_max_kmh": 90,
+        "ammunition_types": ["HE", "AP"]
+      }
+    },
+    {
+      "id": 99,
+      "name": "TERUEL",
+      "type": "РСЗО",
+      "country_of_origin": "Испания",
+      "operators": ["Испания"],
+      "specifications": {
+        "caliber_mm": 140,
+        "range_km": 25,
+        "rate_of_fire_rpm": 40,
+        "reload_time_min": 10,
+        "crew": 6,
+        "speed_max_kmh": 85,
+        "ammunition_types": ["HE", "AP"]
+      }
+    },
+    {
+      "id": 100,
+      "name": "LARS-2",
+      "type": "РСЗО",
+      "country_of_origin": "Германия",
+      "operators": ["Германия"],
+      "specifications": {
+        "caliber_mm": 110,
+        "range_km": 25,
+        "rate_of_fire_rpm": 36,
+        "reload_time_min": 8,
+        "crew": 3,
+        "speed_max_kmh": 90,
+        "ammunition_types": ["HE", "SMART"]
+      }
+    }
+  ]
+}
